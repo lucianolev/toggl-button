@@ -1,5 +1,5 @@
 {
-  "name": "Toggl Button",
+  "name": "Toggl Button (With Redmine support for Eryx)",
   "version": "0.2.13",
   "manifest_version": 2,
   "description": "Add Official Toggl Online Timer to Popular Web Tools",
@@ -28,7 +28,8 @@
     "*://*.basecamp.com/*",
     "*://*.atlassian.net/*",
     "*://*.producteev.com/*",
-    "*://*.bitbucket.org/*"
+    "*://*.bitbucket.org/*",
+    "*://proyectos.eryxsoluciones.com.ar/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -51,7 +52,8 @@
         "*://*.worksection.com/*",
         "*://*.basecamp.com/*",
         "*://*.atlassian.net/*",
-        "*://*.producteev.com/*"
+        "*://*.producteev.com/*",
+        "*://proyectos.eryxsoluciones.com.ar/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -115,6 +117,10 @@
     {
       "matches": ["*://*.atlassian.net/*"],
       "js": ["scripts/content/jira.js"]
+    },
+    {
+      "matches": ["*://proyectos.eryxsoluciones.com.ar/*"],
+      "js": ["scripts/content/redmine.js"]
     }
   ]
 }
