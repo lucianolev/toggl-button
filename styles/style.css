@@ -127,3 +127,9 @@
   line-height: 21px;
   padding-left: 21px;
 }
+
+/********* REDMINE *********/
+.toggl-button.redmine {
+  padding-right: 5px;
+  vertical-align: middle;
+}
