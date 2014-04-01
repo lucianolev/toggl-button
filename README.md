@@ -17,6 +17,13 @@ Add Toggl one-click time tracking to popular web tools.
   - [JIRA][13]
   - [Producteev][14]
   - [Bitbucket][15]
+  - [Redmine][16]
+
+# Custom Domain Fork
+
+This is a modified fork with support for Redmine hosted in Eryx Soluciones domain. 
+
+(Until support for custom domain apps is added)
 
 ## Installing from the Web Store
 
@@ -55,4 +62,5 @@ Want to contribute? Great! Just fork the project, make your changes and open a [
 [13]: https://www.atlassian.com/software/jira
 [14]: https://www.producteev.com/
 [15]: https://www.bitbucket.org/
+[16]: https://www.redmine.org/
 [99]: https://github.com/toggl/toggl-button/pulls
