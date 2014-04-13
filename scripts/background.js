@@ -7,7 +7,7 @@ var TogglButton = {
   $apiUrl: "https://www.toggl.com/api/v7",
   $newApiUrl: "https://new.toggl.com/api/v8",
   $sites: new RegExp([
-    'eryxsoluciones\\.com\\.ar',
+    'proyectos\\.eryxsoluciones\\.com\\.ar',
     'asana\\.com',
     'podio\\.com',
     'trello\\.com',
